@@ -177,7 +177,7 @@ function prevTrack(){
     for (let i = 0; i < 20; i++) {
       setTimeout(() => {
         const heart = document.createElement('img');
-        heart.src = 'icons/heart.png';
+        heart.src = 'icons/heart.gif';
         heart.classList.add('heart');
         heart.style.left = Math.random() * 100 + 'vw';
         const size = 20 + Math.random() * 20;
