@@ -88,23 +88,23 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
-        name: "Only",
-        artist: "Lee Hi",
-        path: "./music/only.mp3",
+        name: "Kingston",
+        artist: "Faye Webster",
+        path: "./music/kingston.mp3",
     },
     {
-        name: "Day & Night",
-        artist: "Jung Seung Hwan",
-        path: "./music/day and night.mp3",
+        name: "Congratulations",
+        artist: "Mac Miller",
+        path: "./music/congratulations-feat-bilal.mp3",
     },
     {
-        name: "Love of my Life",
-        artist: "Reyne",
-        path: "./music/love of my life.mp3",
+        name: "I Hear a Symphony",
+        artist: "Cody Fry",
+        path: "./music/i-hear-a-symphony.mp3",
     },
     {
-        name: "The Only One",
-        artist: "Reyne",
+        name: "All My Loving",
+        artist: "Arctic Monkeys",
         path: "./music/the only one.mp3",
     },
 ];
