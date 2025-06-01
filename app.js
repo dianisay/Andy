@@ -1,18 +1,46 @@
-let anniversary = "2022-10-13";
-let date = new Date(anniversary);
-let dateVal = date.getTime();
-let today = new Date();
-let now = today.getTime();
-let value = now - dateVal;
-let day = Math.floor(value / (1000 * 60 * 60 * 24));
-let month = Math.floor(value / (1000 * 60 * 60 * 24 * 30.4375));
-let year = Math.floor(value / (1000 * 60 * 60 * 24 * 365.25));
+//let anniversary = "2022-10-13";
+//let date = new Date(anniversary);
+//let dateVal = date.getTime();
+//let today = new Date();
+//let now = today.getTime();
+//let value = now - dateVal;
+//let day = Math.floor(value / (1000 * 60 * 60 * 24));
+//let month = Math.floor(value / (1000 * 60 * 60 * 24 * 30.4375));
+//let year = Math.floor(value / (1000 * 60 * 60 * 24 * 365.25));
 
-console.log(value);
+//console.log(value);
 
-document.getElementById("days").textContent = day.toString();
-document.getElementById("months").textContent = month.toString();
-document.getElementById("years").textContent = year.toString();
+//document.getElementById("days").textContent = day.toString();
+//document.getElementById("months").textContent = month.toString();
+//document.getElementById("years").textContent = year.toString();
+
+
+// Set the start date
+const startDate = new Date("November 11, 2023");
+
+// Function to update the countdown
+function updateCountdown() {
+    const currentDate = new Date();
+    
+    // Calculate the difference in time (milliseconds)
+    const timeDifference = currentDate - startDate;
+
+    // Convert milliseconds to years, months, and days
+    const years = Math.floor(timeDifference / (1000 * 60 * 60 * 24 * 365));
+    const months = Math.floor((timeDifference % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
+    const days = Math.floor((timeDifference % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+
+    // Update the HTML with the new values
+    document.getElementById('years').textContent = years;
+    document.getElementById('months').textContent = months;
+    document.getElementById('days').textContent = days;
+}
+
+// Run the countdown function every second
+setInterval(updateCountdown, 1000);
+
+// Initial call to set the correct date right away
+updateCountdown();
 
 
 let musicPlayer = document.querySelector(".music-container");
