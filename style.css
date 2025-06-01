@@ -256,29 +256,25 @@
   }
 
 
-button,
-a {
-  unset: all;
+.icon-button {
+  background: transparent;
   border: none;
-  text-decoration: none;
-  font-family: "Verdana";
-  font-size: 14px;
-  background: #fff;
-  color: #000;
-  padding: 3px 5px;
-  width: 75px;
-  border-radius: 3px;
-  display: inline-block;
-  text-align: center;
+  padding: 0;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
-button:hover,
-a:hover {
-  background: #ccc;
+.icon-button img {
+  width: 24px;
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
-button:active,
-a:active {
-  background: #00a;
-  color: #fff;
+.icon-button:hover img {
+  transform: scale(1.1);
 }
+
