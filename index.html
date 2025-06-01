@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+    <title>Te amo bebé</title>
+    <link rel="icon" href="icons/haha.png"/>
+    <link rel="stylesheet" href="./style.css">
+
+    <meta name="description" content="A lovely surprise for someone special">
+    <meta property="og:title" content="A Surprise for Andy">
+    <meta property="og:description" content="Check out this cute little gift!">
+    <meta property="og:image" content="https://github.com/dianisay/Andy/blob/main/icons/haha.png">
+</head>
+
+<body style="font-family: 'Comic Neue';" class="relative">
+
+    <!-- MUSIC PLAYER -->
+    <div class="fixed left-6 bottom-6 z-10">
+        <div class="music-container relative bg-neutral-100 py-3 px-3 border-2 z-10 rounded-md border-brown flex items-center">
+            <div class="toggle-player bg-neutral-100 border-2 border-brown">
+                <img class="w-full" src="icons/close.svg" alt="">
+            </div>
+            <div class="avatar absolute w-14">
+                <img class="w-full border-2 bg-white border-brown rounded-md" src="icons/pinkheart.svg" alt="">
+            </div>
+            <div class="player">
+                <div class="sound-bars-lottie">
+                    <div class="sound-bars"></div>
+                </div>
+                <div class="track-info -space-y-1">
+                    <div class="trackname">Kingston</div>
+                    <div class="trackartist">Track Artist</div>
+                </div>
+                <div class="track-nav">
+                    <div class="prev-track">
+                        <img class="w-7" src="icons/backplayer.svg" alt="">
+                    </div>
+                    <div class="playpause-track">
+                        <img class="w-8" src="icons/play.svg" alt="">
+                    </div>
+                    <div class="next-track">
+                        <img class="w-7" style="transform: rotate(180deg);" src="icons/backplayer.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="one">
+            <img src="img/1.png" alt="">
+            <div class="container">
+                <div class="envelope-wrapper">
+                    <div class="envelope">
+                        <div class="letter">
+                            <div class="text">
+                                <strong style="font-size: .89rem;">Hola Bebé,</strong>
+                                <p style="text-indent: 15px;">
+                                    Espero que te guste este detallito que hice para ti, con todo mi amor. Te amo más de lo que podrías imaginar. Fuiste, eres y siempre serás mi persona favorita, mi eterno crush, el amor de mi vida. Esto es solo una pequeña forma de recordarte cuánto significas para mí.
+                                </p>
+                                <p class="love">TE AMO SIEMPRE, INCONDICIONALEMNTE, INTENSAMENTE</p>
+                                <div class="pana">
+                                    <img src="icons/heartarrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIRST CARD -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/2.png" alt="">
+        <!-- FIRST PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- FIRST CARD -->
+            <div id="window" style="background-color: #edddb8;" class="relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-brown">
+            <!--div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-brown"-->
+                 <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60">
+                    <img class="w-full -rotate-12" src="gifs/ily.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-60">
+                    <img class="w-full rotate-12" src="gifs/ily.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-60">
+                    <img class="w-full rotate-3" src="gifs/ily.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-60">
+                    <img class="w-full -rotate-12" src="gifs/ily.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-brown">
+                    <div>
+                        <img class="w-5" src="icons/back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">Gracias por todo bebé</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="icons/x.svg">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-brown">
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">Cuánta suerte tengo de coincidir contigo.</h1>
+                        <p class="text-base">Atesoro cada momento contigo. Tú eres la prueba de que Dios existe. Gracias por ser mi amigo, mi novio, mi cómplice y el mejor capítulo de mi historia.</p>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="fotos/DA6.jpg" alt="">
+                        <img class="w-40" src="fotos/DA5.jpg" alt="">
+                        <img class="w-40" src="fotos/DA4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- SECOND CARD -->
+    <div class="w-full h-[100vh] z-0 relative ">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/3.png" alt="">
+        <!-- SECOND PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- SECOND CARD -->
+            <div id="window" style="background-color: #edddb8;" class="relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-brown">
+            <!--div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-brown"-->
+                <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60 w-40">
+                    <img class="w-full -rotate-6" src="gifs/GM1.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-64 w-44">
+                    <img class="w-full -rotate-6" src="gifs/HK1.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-64 w-44">
+                    <img class="w-full rotate-6" src="gifs/HK2.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-64 w-40">
+                    <img class="w-full rotate-6" src="gifs/gm2.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-brown">
+                    <div>
+                        <img class="w-5" src="icons/back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">Te adoro más de lo que las palabras pueden expresar.</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="icons/x.svg" alt="">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-brown">
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">Quiero estar contigo por siempre</h1>
+                        <p class="text-base">Prometo seguir eligiéndote todos los días. Porque cuando pienso en el futuro, solo sé que quiero verte ahí. Y aunque no todo esté bajo control, siempre te voy a amar, nunca lo olvides. </p>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="fotos/DA3.jpg" alt="">
+                        <img class="w-40 object-cover" src="fotos/DA2.jpg" alt="">
+                        <img class="w-40 object-cover" src="fotos/DA1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+<!-- FOURTH -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/4.png" alt="">
+        <div class="absolute top-0 w-full h-full flex justify-center items-center">
+            <!-- COUNTER -->
+            <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-brown flex-col px-5 pb-3 shadow-md pt-9 rounded-md">
+                <!-- GIFS -->
+                <div class="absolute top-1 right-1 w-7">
+                    <img class="w-full" src="icons/heart.svg" alt="">
+                </div>
+                <div class="absolute -top-20 -left-56 w-44">
+                    <img class="w-full -rotate-6" src="gifs/mm1.gif" alt="">
+                </div>
+                <div class="absolute -bottom-3 -right-52 w-44">
+                    <img class="w-full" src="gifs/mm2.gif" alt="">
+                </div>
+                <div class="absolute top-[-8rem] z-0 right-28 w-36">
+                    <img class="w-full" src="gifs/mm3.gif" alt="">
+                </div>
+                <div class="absolute -bottom-48 z-0 left-16 w-40">
+                    <img class="w-full" src="gifs/mm4.gif" alt="">
+                </div>
+
+                <!-- DATE COUNTER -->
+                <div class="flex gap-5" id="myCountdown">
+                    <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="years" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Years</p>
+                    </div>
+                    <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="months" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Months</p>
+                    </div>
+                    <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="days" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Days</p>
+                    </div>
+                </div>
+                <h1 class="text-center font-bold text-base">Since November 11, 2023</h1>
+                
+
+
+        </div>
+    </div>
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+            envelope.classList.toggle('open');
+        });
+    </script>
+    
+    <script src="app.js"></script> 
+</body>
+</html>
+
