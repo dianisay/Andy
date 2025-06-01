@@ -105,7 +105,7 @@ let trackList = [
     {
         name: "All My Loving",
         artist: "Arctic Monkeys",
-        path: "./music/the only one.mp3",
+        path: "./music/all-my-loving.mp3",
     },
 ];
 
