@@ -255,26 +255,3 @@
     transition-duration: .5s;
   }
 
-
-.icon-button {
-  background: transparent;
-  border: none;
-  padding: 0;
-  width: auto;
-  height: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.icon-button img {
-  width: 24px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.icon-button:hover img {
-  transform: scale(1.1);
-}
-
