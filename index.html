@@ -177,56 +177,33 @@
             </div>
         </div>  
     </div>
-    <!-- FOURTH -->
+<!-- FOURTH -->
     <div class="w-full h-[100vh] z-0 relative">
-        <img class="w-full h-full object-cover" src="img/4.png" alt="Background">
-         <!-- GIF Layer -->
-        <div id="gifArea" style="position: absolute; top: 0; left: 0; width: 60%; height: 60%; pointer-events: none; z-index: 1;">
-          <img src="gifs/mm1.gif" style="position: absolute; width: 160px; height: 160px; top: -20px; left: -20px;">
-          <img src="gifs/mm2.gif" style="position: absolute; width: 160px; height: 160px; top: -25px; left: 50%; transform: translateX(-50%);">
-          <img src="gifs/mm3.gif" style="position: absolute; width: 160px; height: 160px; top: -20px; right: -20px;">
-          <img src="gifs/mm4.gif" style="position: absolute; width: 160px; height: 160px; top: 15%; right: -25px;">
-          <img src="gifs/mm17.gif" style="position: absolute; width: 165px; height: 165px; top: 50%; right: -30px; transform: translateY(-50%);">
-          <img src="gifs/mm6.gif" style="position: absolute; width: 160px; height: 160px; bottom: 15%; right: -25px;">
-          <img src="gifs/mm7.gif" style="position: absolute; width: 160px; height: 160px; bottom: -20px; right: -20px;">
-          <img src="gifs/mm8.gif" style="position: absolute; width: 160px; height: 160px; bottom: -25px; left: 50%; transform: translateX(-50%);">
-          <img src="gifs/mm9.gif" style="position: absolute; width: 160px; height: 160px; bottom: -20px; left: -20px;">
-          <img src="gifs/mm10.gif" style="position: absolute; width: 160px; height: 160px; bottom: 15%; left: -25px;">
-          <img src="gifs/mm11.gif" style="position: absolute; width: 165px; height: 165px; top: 50%; left: -30px; transform: translateY(-50%);">
-          <img src="gifs/mm12.gif" style="position: absolute; width: 160px; height: 160px; top: 15%; left: -25px;">
-          <img src="gifs/mm13.gif" style="position: absolute; width: 155px; height: 155px; top: 5px; left: 5px;">
-          <img src="gifs/mm14.gif" style="position: absolute; width: 155px; height: 155px; top: 5px; right: 5px;">
-          <img src="gifs/mm15.gif" style="position: absolute; width: 155px; height: 155px; bottom: 5px; left: 5px;">
-          <img src="gifs/mm16.gif" style="position: absolute; width: 155px; height: 155px; bottom: 5px; right: 5px;">
-        </div>
-    
-        <!-- Countdown Layer -->
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/4.png" alt="">
         <div class="absolute top-0 w-full h-full flex justify-center items-center">
-          <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-brown flex-col px-5 pb-3 shadow-md pt-9 rounded-md">
-            <div class="flex gap-5" id="myCountdown" style="position: relative; z-index: 2;">
-              <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
-                <h1 id="years" class="text-6xl font-bold">0</h1>
-                <p class="font-bold text-xl text-red-700">Years</p>
-              </div>
-              <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
-                <h1 id="months" class="text-6xl font-bold">0</h1>
-                <p class="font-bold text-xl text-red-700">Months</p>
-              </div>
-              <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
-                <h1 id="days" class="text-6xl font-bold">0</h1>
-                <p class="font-bold text-xl text-red-700">Days</p>
-              </div>
-            </div>
-            <h1 class="text-center font-bold text-base" style="position: relative; z-index: 2;">Since November 11, 2023</h1>
-          </div>
-        </div>
-      </div>
+            <!-- COUNTER -->
+            <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-brown flex-col px-5 pb-3 shadow-md pt-9 rounded-md">
+                <!-- GIFS -->
+                <div class="absolute top-1 right-1 w-7">
+                    <img class="w-full" src="icons/heart.svg" alt="">
+                </div>
+                <div class="absolute -top-20 -left-56 w-44">
+                    <img class="w-full -rotate-6" src="gifs/mm1.gif" alt="">
+                </div>
+                <div class="absolute -bottom-3 -right-52 w-44">
+                    <img class="w-full" src="gifs/mm2.gif" alt="">
+                </div>
+                <div class="absolute top-[-8rem] z-0 right-28 w-36">
+                    <img class="w-full" src="gifs/mm3.gif" alt="">
+                </div>
+                <div class="absolute -bottom-48 z-0 left-16 w-40">
+                    <img class="w-full" src="gifs/mm4.gif" alt="">
+                </div>
 
-    
-        <div class="absolute top-0 w-full h-full flex justify-center items-center">
-            <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-brown flex-col px-5 pb-3 shadow-md pt-9 rounded-md" id="counterAndGifContainer">
-    
-                <div class="flex gap-5" id="myCountdown" style="position: relative; z-index: 2;"> <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                <!-- DATE COUNTER -->
+                <div class="flex gap-5" id="myCountdown">
+                    <div class="bg-transparent border-2 border-brown rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
                         <h1 id="years" class="text-6xl font-bold">0</h1>
                         <p class="font-bold text-xl text-red-700">Years</p>
                     </div>
@@ -239,9 +216,13 @@
                         <p class="font-bold text-xl text-red-700">Days</p>
                     </div>
                 </div>
-                <h1 class="text-center font-bold text-base" style="position: relative; z-index: 2;">Since November 11, 2023</h1> </div>
+                <h1 class="text-center font-bold text-base">Since November 11, 2023</h1>
+                
+
+
         </div>
     </div>
+
     <script>
         const envelope = document.querySelector('.envelope-wrapper');
         envelope.addEventListener('click', () => {
